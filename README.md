@@ -1,6 +1,6 @@
 # Game of Thrones
 
-> !Spoiler Alert
+> **!Spoiler Alert**
 
 Este sitio muestra el CV de **Jhon Snow** de 'Winterfell':
 - Rey del Norte
