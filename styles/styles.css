@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-@font-face {
-    font-family: juego-tronos;
-    src: url(../fonts/gt.ttf);
-}
-
 /* RESET BOX MODEL */
 *, *:after, *:before {
     box-sizing: border-box;
@@ -15,9 +10,25 @@ body {
     padding: 0;
 }
 
+/* GLOBAL VARIABLES FOR HTML ELEMENT */
+:root {
+    --max-width: 900px;
+    --text-color: #222222;
+    --bg-color: white;
+    --bg-inverted: #EFEFFE;
+}
+
+/* FUENTES */
+@font-face {
+    font-family: juego-tronos;
+    src: url(../fonts/gt.ttf);
+}
+
 * {
     font-family: Roboto;
 }
+
+
 
 /* NAVBAR HEADER */
 .navbar {    
