@@ -2,21 +2,20 @@
 
 .header {
   height: calc(100vh - 51px);    
-}
-
-.header-image {
-  height: 100vh;
   background-image: url(../images/header-bg.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .header > h1 {
-  position: absolute;
-  bottom: 30vh;
-  left: 60vw;
   font-weight: 100;
+  margin-left: 55vw;
 }
 
 .header > h1 > span {
@@ -26,7 +25,5 @@
 }
 
 .header > .tagline {
-  position: absolute;
-  top: 60vh;
-  left: 60vw;
+  margin-left: 55vw;
 }
