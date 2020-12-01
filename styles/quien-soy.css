@@ -1,0 +1,13 @@
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.biography{
+  flex: 0 1 60%;
+}
+
+.skills {
+  flex: 0 1 30%;
+}
+
