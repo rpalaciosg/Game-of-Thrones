@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/que-hago.css">
 </head>
 
 <body>
@@ -35,42 +36,44 @@
     <main>
         <section id="que-hago">
             <h1>A qué me dedico</h1>
-            <article class="letra-arial">
-                <img src="./images/guardia-noche.jpg" alt="Imagen guardia de la noche">
-                <h2><a href="#">Guardia de la noche</a></h2>
-                <p>Lorem ipsum <strong>esto es strong</strong> dolor sit amet, consectetur adipisicing elit.
-                    Quam numquam, ea ratione, quae cum magni voluptas corrupti <b>En negrita</b>
-                    quos <i>itálica</i> accusantium <em>tenetur</em> tempore similique corporis est aliquid dolorum
-                    neque laboriosam<sup>3</sup> hic veritatis<sub>2</sub> esse.
-                </p>
-            </article>
-            <article>
-                <img src="./images/rey-norte.jpg" alt="Imagen rey del norte">
-                <h2><a href="#">Rey del norte</a></h2>
-                <p class="letra-arial"><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit.
-                    Quam numquam, ea ratione, quae cum magni voluptas corrupti
-                    quos accusantium tempore similique corporis est aliquid dolorum
-                    neque laboriosam hic veritatis esse.
-                </p>
-            </article>
-            <article>
-                <img src="./images/cuidador-dragones.jpg" alt="Imagen cuidador de dragones">
-                <h2><a href="#">Cuidador de dragones</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quam numquam, ea ratione, quae cum magni voluptas corrupti
-                    quos accusantium tempore similique corporis est aliquid dolorum
-                    neque laboriosam hic veritatis esse.
-                </p>
-            </article>
-            <article>
-                <img src="./images/consejero-real.jpg" alt="Imagen de consejero real">
-                <h2><a href="#">Consejero Real</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quam numquam, ea ratione, quae cum magni voluptas corrupti
-                    quos accusantium tempore similique corporis est aliquid dolorum
-                    neque laboriosam hic veritatis esse.
-                </p>
-            </article>
+            <div class="flex-card-container">
+                <article class="flex-card">
+                    <img src="./images/guardia-noche.jpg" alt="Imagen guardia de la noche">
+                    <h2><a href="#">Guardia de la noche</a></h2>
+                    <p>Lorem ipsum <strong>esto es strong</strong> dolor sit amet, consectetur adipisicing elit.
+                        Quam numquam, ea ratione, quae cum magni voluptas corrupti <b>En negrita</b>
+                        quos <i>itálica</i> accusantium <em>tenetur</em> tempore similique corporis est aliquid dolorum
+                        neque laboriosam<sup>3</sup> hic veritatis<sub>2</sub> esse.
+                    </p>
+                </article>
+                <article class="flex-card">
+                    <img src="./images/rey-norte.jpg" alt="Imagen rey del norte">
+                    <h2><a href="#">Rey del norte</a></h2>
+                    <p class="letra-arial"><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit.
+                        Quam numquam, ea ratione, quae cum magni voluptas corrupti
+                        quos accusantium tempore similique corporis est aliquid dolorum
+                        neque laboriosam hic veritatis esse.
+                    </p>
+                </article>
+                <article class="flex-card">
+                    <img src="./images/cuidador-dragones.jpg" alt="Imagen cuidador de dragones">
+                    <h2><a href="#">Cuidador de dragones</a></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Quam numquam, ea ratione, quae cum magni voluptas corrupti
+                        quos accusantium tempore similique corporis est aliquid dolorum
+                        neque laboriosam hic veritatis esse.
+                    </p>
+                </article>
+                <article class="flex-card">
+                    <img src="./images/consejero-real.jpg" alt="Imagen de consejero real">
+                    <h2><a href="#">Consejero Real</a></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Quam numquam, ea ratione, quae cum magni voluptas corrupti
+                        quos accusantium tempore similique corporis est aliquid dolorum
+                        neque laboriosam hic veritatis esse.
+                    </p>
+                </article>
+            </div>
         </section>
         <section id="quien-soy">
             <h1>About Myself</h1>
