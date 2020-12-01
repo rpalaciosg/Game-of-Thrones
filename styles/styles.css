@@ -32,3 +32,10 @@ main {
     max-width: var(--max-width);
     margin: 0 auto;
 }
+
+section > h1 {
+    text-align: center;
+    font-family: juego-tronos, 'Segoe UI Regular WestEuropean', Roboto;
+    font-variant: small-caps;
+    font-size: 2.5rem;
+}

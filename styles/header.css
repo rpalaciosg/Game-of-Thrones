@@ -21,7 +21,7 @@
 .header > h1 > span {
   display: block;
   font-weight: 700;
-  font-family: juego-tronos;
+  font-family: juego-tronos, 'Segoe UI Regular WestEuropean', Roboto;
 }
 
 .header > .tagline {

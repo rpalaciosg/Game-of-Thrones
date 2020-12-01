@@ -15,7 +15,7 @@
   margin-left: 1rem;
   flex: 150px;
 
-  font-family: juego-tronos, 'Segoe UI Regular WestEuropean';
+  font-family: juego-tronos, 'Segoe UI Regular WestEuropean', Roboto;
 }
 
 .navbar-list {
