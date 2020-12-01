@@ -27,3 +27,8 @@ body {
 * {
     font-family: Roboto;
 }
+
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
