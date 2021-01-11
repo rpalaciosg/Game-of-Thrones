@@ -37,7 +37,7 @@ section{
     padding: 3rem 1rem;
 }
 
-section > h1 {
+section h1 {
     text-align: center;
     font-family: juego-tronos, 'Segoe UI Regular WestEuropean', Roboto;
     font-variant: small-caps;
@@ -46,4 +46,15 @@ section > h1 {
 
 section img {
     max-width: 100%;
-  }
+}
+
+section.inverted {
+    background-color: var(--bg-inverted);
+    margin-right: calc(50% - 50vw + .6rem);
+    margin-left: calc(50% - 50vw + .6rem); 
+}
+
+section .centered {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
